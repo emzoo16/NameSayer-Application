@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="225.0" prefWidth="400.0" style="-fx-background-color: #404046;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NameSayer.CreateController">
+   <children>
+    <Button fx:id="createConfirmButton" alignment="CENTER" layoutX="157.0" layoutY="158.0" mnemonicParsing="false" onAction="#createConfirmButtonClicked" prefHeight="35.0" prefWidth="74.0" style="-fx-border-color: #36e186; -fx-background-color: #404046;" text="Create" textFill="#36e186">
+         <font>
+            <Font name="Futura Medium" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="textField" layoutX="83.0" layoutY="113.0" prefHeight="27.0" prefWidth="222.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="54.0" layoutY="63.0" text="Please enter the name for your creation:" textFill="#36e186">
+         <font>
+            <Font name="Futura Medium" size="14.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
